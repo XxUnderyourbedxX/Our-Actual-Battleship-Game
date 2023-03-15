@@ -1,0 +1,133 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+[alt~=logo] {
+    height: 250px;
+    margin-left: -60px;
+}
+
+.box1 {
+    float: left;
+    margin-left: -470px;
+    margin-top: 100px;
+    background-color: grey;
+    height: 1045px;
+    width: 700px;
+}
+
+.box2 {
+    margin-left: 350px;
+    margin-top: 200px;
+    position: absolute;
+    background-color: grey;
+    height: 680px;
+    width: 700px;
+}
+
+.box3 {
+    background-color: white;
+    height: 270px;
+    width: 680px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.box5 {
+    background-color: lightblue;
+    height: 650px;
+    width: 680px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: #2196F3;
+}
+.grid-item {
+    background-color: rgba(47, 112, 186, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 59.1px;
+}
+
+.box6 {
+    background-color: lightblue;
+    height: 650px;
+    width: 680px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+[type~=button]:hover {
+    background-color: #62ace9;
+}
+
+[type~=button]{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top: 10px;
+    background-color: #2196F3;
+}
+
+[type~=button3]:hover{
+    background-color: grey;
+}
+
+[type~=button3]{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+} 
+
+[alt~=tiny] {
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+[alt~=Mid] {
+    width: 200px;
+    margin-right: 20px;
+}
+
+[alt~=Medium] {
+    width: 200px;
+}
+
+[alt~=Bigs] {
+    width: 270px;
+    height: 280px;
+    margin-top: -100px;
+    margin-left: 30px;
+    margin-bottom: -20px;
+}
+
+[alt~=Aircraft] {
+    width: 310px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+
+.hero {
+    height: 150vh;
+    width: 100%;
+    background-image: url(../images/battleship-background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+}
+
+.hero-content {
+    width: 30%;
+    margin-top: 40px;
+}

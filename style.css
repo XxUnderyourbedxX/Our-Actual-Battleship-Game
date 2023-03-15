@@ -1,0 +1,47 @@
+[alt~=logo] {
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+[type~=button1]:hover {
+    background-color: grey;
+}
+
+[type~=button1]{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: silver;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+[type~=button2]:hover {
+    background-color: grey;
+}
+
+[type~=button2]{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: silver;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.hero {
+    height: 99vh;
+    width: 100%;
+    background-image: url(../images/battleship-background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+}
