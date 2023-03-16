@@ -131,3 +131,13 @@
     width: 30%;
     margin-top: 40px;
 }
+
+[type~=button3]:hover{
+    background-color: grey;
+}
+
+[type~=button3]{
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+} 
