@@ -154,7 +154,7 @@
 }
 #stopwatch {
     border:2px solid #3399cc;
-    -webkit-border-radius:200px;
+    border-radius:200px;
     margin-left: 900px;
     margin-top: -125px;
 }
