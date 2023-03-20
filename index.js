@@ -1,7 +1,7 @@
 /*Drag and Drop*/
-const dropItems = document.getElementById('drop_items')
+const dragitems = document.getElementById('drag_items')
 
-new sortable(dropItems,{
+new sortable(dragitems,{
     animation: 350,
     chosenClass: "sortable-chosen",
     dragClass: "sortable-drag"
