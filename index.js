@@ -7,7 +7,13 @@ new sortable(dragitems,{
     dragClass: "sortable-drag"
 });
 
+const refreshButton = document.querySelector('.refresh-button');
 
+const refreshPage = () => {
+  location.reload();
+}
+
+refreshButton.addEventListener('click', refreshPage)
 
 (function () {
     var canvas  = document.getElementById('stopwatch'),
