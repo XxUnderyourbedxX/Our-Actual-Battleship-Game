@@ -50,6 +50,7 @@ function dragAfterElement(container, y) {
 
 function myFunction(){
   let x = document.getElementById()
+
 }
 
 const draggbless = document.querySelectorAll(".shallow-draggable")
@@ -99,6 +100,7 @@ function dragAfterElement(container, y) {
 
 function myFunction(){
   let x = document.getElementById()
+  x.style.fontSize= "2px";
 }
 
 /*const multiDimensionalArray = [
