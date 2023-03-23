@@ -12,7 +12,7 @@
     var draw = function () {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.lineWidth = 30;
-      ctx.strokeStyle = '#3399cc';
+      ctx.strokeStyle = '#ffff00';
       ctx.beginPath();
       ctx.arc(100, 100, 80,start, start + second * t);
       ctx.stroke();
