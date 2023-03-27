@@ -98,10 +98,36 @@ function dragAfterElement(container, y) {
   ).element
 }
 
-function myFunction(){
+let playerText = document.getElementById(Container)
+let restartBtn = document.getElementById(start) 
+let boxes = Array.from(document.getElementsByClassName('grid-item'))
+console.log(grid-item)
+
+const O_TEXT = "0"
+const H_TEXT = "X"
+let currentPlayer = X_TEXT
+let spaces = Array(9).fill(null)
+
+const startGame = () => {
+  boxes.forEach(boxes => boxes.addEventListener('click', boxClicked))
+}
+
+function boxClicked(e) {
+  const id = e.target.id
+
+  if(!spaces[id]){
+    spaces[id] = currentPlayer
+    e.target.innerText = currentPlayer
+
+    currentPlayer = currentPlayer == H_TEXT ? O_TEXT : H_TEXT
+  }
+}
+
+startGame()
+/*function myFunction(){
   let x = document.getElementById()
   x.style.fontSize= "2px";
-}
+}*/
 
 /*const multiDimensionalArray = [
   [0,2,1,0,0],

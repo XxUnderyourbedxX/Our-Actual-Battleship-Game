@@ -55,6 +55,10 @@
     height: 59.1px;
 }
 
+.grid-item:hover {
+    cursor: pointer;
+}
+
 .box6 {
     background-color: lightblue;
     height: 650px;
